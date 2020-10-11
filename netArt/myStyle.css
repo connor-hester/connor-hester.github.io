@@ -1,0 +1,214 @@
+body{
+    background-color: black;
+    font-family: 'Righteous', cursive;
+    color:white;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.item1a{
+    grid-column:2/3;
+    grid-row:2/3;
+    text-decoration: underline;
+    color:blue;
+    align-self:center;
+}
+.item1a:hover{
+color:red;
+}
+.item1b{
+    grid-column:3/4;
+    grid-row:2/3;
+    align-self:center;
+}
+.item1b:hover{
+    color:red; 
+}
+.item1b:visited{
+    color:blue;
+    }
+.item2a{
+    color:black;
+    grid-column: 1;
+    grid-row: 2;
+    align-self:center;
+    justify-self:center;
+    text-decoration: none;
+}
+.item2a:hover{
+    color:blue;
+}
+.item2b{
+    color:black;
+    grid-column: 2;
+    grid-row: 4;
+    align-self:center;
+    justify-self:center;
+    text-decoration: none;
+}
+.item2b:hover{
+    color:blue;
+}
+.item2c{
+    color:black;
+    grid-column: 3;
+    grid-row: 6;
+    align-self:center;
+    justify-self:center;
+    text-decoration: none;
+}
+.item2c:hover{
+    color:blue;
+}
+.item2d{
+    color:black;
+    grid-column: 4;
+    grid-row: 8;
+    align-self:center;
+    justify-self:center;
+    text-decoration: none;
+}
+.item2d:hover{
+    color:blue;
+}
+.item3a{
+    color:rgb(100, 0, 0);
+    text-align:center;
+    background-color:red;
+    grid-column: 1;
+    grid-row:1;
+}
+.item3b{
+    color:rgb(0,0,100);
+    text-align:center;
+    background-color:blue;
+    grid-column: 2;
+    grid-row:3; 
+}
+.item3c{
+    color:rgb(0,100,0);
+    text-align:center;
+    background-color:green;
+    grid-column: 3;
+    grid-row:7;
+}
+.redTitle{
+    text-align: center;
+    color:red;
+}
+.greenTitle{
+    text-align: center;
+    color:green;
+}
+.blueTitle{
+    text-align: center;
+    color:blue;
+}
+.item4a{
+    grid-column:2;
+    grid-row:1;
+}
+.item4b{
+    grid-column:2;
+    grid-row:2;
+}
+.item4c{
+    grid-column:3;
+    grid-row:1;
+}
+.item4d{
+    grid-column:3;
+    grid-row:2;
+}
+.item4e{
+    grid-column:2;
+    grid-row:3;
+    text-align:center;
+    color:green;
+}
+.item4e:visited{
+    color:green;
+}
+.item5e{
+    grid-column:2;
+    grid-row:3;
+    text-align:center;
+    color:red;
+}
+.item5e:visited{
+    color:red;
+}
+.item4f{
+    grid-column:3;
+    grid-row:3;
+    text-align:center; 
+    color:blue;
+}
+.item4f:visited{
+    color:blue;
+}
+.item5f{
+    grid-column:3;
+    grid-row:3;
+    text-align:center; 
+    color:green;
+}
+.item5f:visited{
+    color:green;
+}
+.item4g{
+    grid-column:4;
+    grid-row:1;
+    text-align:center;
+    color:white;
+}
+.item4g:visited{
+    color:white;
+}
+.a{
+    grid-column:1;
+    grid-row:1;
+    text-align:center;
+    color:white;
+}
+.a:visited{
+    color:white;
+}
+.b{
+    grid-column:2;
+    grid-row:1;
+    text-align:center;
+    color:red;
+}
+.b:visited{
+    color:red;
+}
+.c{
+    grid-column:3;
+    grid-row:1;
+    text-align:center;
+    color:blue;
+}
+.c:visited{
+    color:blue;
+}
+.d{
+    grid-column:4;
+    grid-row:1;
+    text-align:center;
+    color:green;
+}
+.d:visited{
+    color:green;
+}
+.e{
+    grid-column: 3;
+    grid-row: 1;
+    text-align:left;
+
+}
+.last{
+    text-align: center;
+}
