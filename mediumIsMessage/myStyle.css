@@ -1,0 +1,26 @@
+body{
+    background-color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.myDisplay{
+    display:flex;
+    flex-flow: column wrap;
+}
+h1{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div {
+    padding: 200px;
+    border-radius: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:red;
+    font-family: 'Ubuntu', sans-serif;
+    
+   }
