@@ -1,0 +1,29 @@
+.display {
+    display: flex;
+    flex-direction:row;
+   }
+   
+   button {
+    padding: 100px;
+    border-radius: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lobster', cursive;
+    min-height: 300px;
+    width:300px;
+
+   }
+   
+   
+   button:hover {
+    background-color: rgb(255,0,0);
+    border: 5px solid rgb(0,0,0);
+    font-size: 20px;
+   }
+
+body{
+    font-family: 'Lobster', cursive;
+}
+h1{
+    text-align:center;
+}
