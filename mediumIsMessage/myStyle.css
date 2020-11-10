@@ -1,26 +1,110 @@
+@keyframes animation{
+    0%{background-color:palevioletred;}
+    20%{background-color:rgb(214, 149, 106);}
+    40%{background-color:rgb(214, 189, 106);}
+    60%{background-color:rgb(128, 214, 106);}
+    80%{background-color:rgb(106, 201, 214);}
+    100%{background-color:rgb(183, 106, 214);}
+}
 body{
     background-color:white;
     font-family: 'Ubuntu', sans-serif;
+    animation-name:animation;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
 }
+
 .myDisplay{
     display:flex;
     flex-flow: column wrap;
+    justify-content: center;
 }
 h1{
     text-align:center;
     font-family: 'Ubuntu', sans-serif;
 }
-p{
+#p1{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#p2{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#p3{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#p4{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#p5{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#p6{
     text-align:center;
     font-family: 'Ubuntu', sans-serif;
 }
 
-div {
-    padding: 200px;
-    border-radius: 250px;
+#b1 {
+    font-family:'Ubuntu', sans-serif;
+    padding: 50px;
     margin-left: auto;
-    margin-right: auto;
-    background-color:red;
+    margin-right:auto;
+    border-radius: 150px;
+    background-color:palevioletred;
+    font-family: 'Ubuntu', sans-serif;
+    
+   }
+   #b2 {
+    font-family:'Ubuntu', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 150px;
+    background-color:rgb(214, 149, 106);
+    font-family: 'Ubuntu', sans-serif;
+    
+   }
+   #b3 {
+    font-family:'Ubuntu', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 150px;
+    background-color:rgb(214, 189, 106);
+    font-family: 'Ubuntu', sans-serif;
+    
+   }
+   #b4 {
+    font-family:'Ubuntu', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 150px;
+    background-color:rgb(128, 214, 106);
+    font-family: 'Ubuntu', sans-serif;
+    
+   }
+   #b5 {
+    font-family:'Ubuntu', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 150px;
+    background-color:rgb(106, 201, 214);
+    font-family: 'Ubuntu', sans-serif;
+    
+   }
+   #b6 {
+    font-family:'Ubuntu', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 150px;
+    background-color:rgb(183, 106, 214);
     font-family: 'Ubuntu', sans-serif;
     
    }
