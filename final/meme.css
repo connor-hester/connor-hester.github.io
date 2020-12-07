@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color:white;
+    color:rgb(50,50,50);;
+}
+.grid1{
+    display:grid;
+    grid-template-rows:100%;
+    grid-template-columns:25%,75%;
+}
+#grid2{
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:25%,25%,50%;
+}
+#grid3{
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:20%,5%,50%,5%,20%;
+}
+#flex1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#container1{
+    grid-row:1;
+    grid-column:1;
+}
+#container2{
+    grid-row:1;
+    grid-column:2;
+}
+#titleContainer{
+    margin:10px;
+    grid-row:1;
+    grid-column:1;
+}
+#instructions{
+    grid-column:1;
+    grid-row:2;
+    margin:10px;
+}
+#buttonContainer{
+    grid-column:1;
+    grid-row:3;
+    margin:10px;
+}
+#topTextContainer{
+    text-align:left;
+    grid-column:1;
+    grid-row:2;
+    font-size:20px;
+}
+#memeImage{
+    grid-column:1;
+    grid-row:3;
+}
+#bottomTextContainer{
+    text-align:left;
+    grid-column:1;
+    grid-row:4;
+    font-size:20px;
+}

@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color:white;
+    color:rgb(50,50,50);
+    font-size:40px;
+}
+#link{
+    color:rgb(50,50,50);
+}
+.grid1{
+display:grid;
+width:100%;
+grid-template-rows:200px,1fr,200px;
+grid-template-columns: 10px,1fr, 1fr, 1fr, 10px;
+/* grid-template-areas: 
+". . . . ."
+". one . two ."
+". . . . ."; */
+}
+#link:visited{
+    color:rgb(50,50,50);
+}
+hr{
+    border:1px solid rgb(50,50,50);
+    width:40%;
+    text-align:left;
+    margin-left:0;
+}
+#flex1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#container1{
+    grid-row-start:3;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:2;
+    justify-self:center;
+}
+#container2{
+    grid-row-start:2R;
+    grid-row-end:3;
+    grid-column-start:4;
+    grid-column-end:5;
+    justify-self:center;
+}
+.carousel {
+    height:500px;
+    width:500px;
+  }
+  .carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: auto;
+  width: 100%;
+}
+
+.carousel-item {
+  text-align: center;
+}
