@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Final Project</title>
+    <link rel="shortcut icon" type="image/jpg" href="media/favIcon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">    
     <link href="meme.css" rel="stylesheet">
     <script src="main.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/base64-js@1.5.1/base64js.min.js"></script>
 </head>
 <body>
 <div class="grid1">
@@ -22,24 +25,23 @@
 <div id="instructions">
     <p>Press the "random" button to</p>
     <p>generate a random meme.</p>
-    <p>Press the "create" button to</p>
-    <p>enter create mode.</p>
+    <p>Press the "save" button to</p>
+    <p>save the current meme.</p>
 </div>
 <div id="buttonContainer">
     <div id="flex1">
    <div id="button1"><button type="button" class="btn btn-dark">Random</button></div> 
    <br>
-    <div id="button2"><a href="createMode.html"><button type="button" class="btn btn-dark">Create</button></a></div>
+    <div id="button2"><button type="button" class="btn btn-dark">Save</button></div>
     </div>
 </div>
 </div>
 </div>
 <div id="container2">
-    <div id="grid3">
-<div id="topTextContainer"></div>
+    <canvas id="canvas1" height=500px width=500px></canvas>
+<!-- <div id="topTextContainer"></div>
 <img id="memeImage" src="" width=420px height=420px>
-<div id="bottomTextContainer"></div>
-</div>
+<div id="bottomTextContainer"></div> -->
 </div>
 </div>
 

@@ -5,7 +5,7 @@ body{
 }
 .grid1{
     display:grid;
-    grid-template-rows:100%;
+    grid-template-rows:50%,50%;
     grid-template-columns:25%,75%;
 }
 #grid2{
@@ -30,21 +30,41 @@ body{
 #container2{
     grid-row:1;
     grid-column:2;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+}
+@media only screen and (max-width: 600px){
+    #titleContainer{
+        text-align:center;
+    }
+    #instructions{
+        text-align:center;
+    }
+    #buttonContainer{
+        text-align:center;
+    }
+    #container2 {
+        grid-row:2;
+        grid-column:1;
+    }
 }
 #titleContainer{
     margin:10px;
     grid-row:1;
     grid-column:1;
+    /* text-align:center; */
 }
 #instructions{
     grid-column:1;
     grid-row:2;
     margin:10px;
+    /* text-align:center; */
 }
 #buttonContainer{
     grid-column:1;
     grid-row:3;
     margin:10px;
+    /* text-align:center; */
 }
 #topTextContainer{
     text-align:left;
@@ -60,5 +80,9 @@ body{
     text-align:left;
     grid-column:1;
     grid-row:4;
+    font-size:20px;
+}
+#canvas1{
+    font-family: 'Roboto Mono', monospace;
     font-size:20px;
 }
